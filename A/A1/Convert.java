@@ -1,9 +1,16 @@
 public class Convert{
-
- 
    public static double convert(String temperature, char scale){
       // converts a temperature (value/scale) to a new scale
-      return -1234567.9;
+      double working_num = Double.parseDouble(temperature.replace("C", ""));
+      if (temperature.charAt(temperature.length()-1) == scale) {
+         return(working_num);
+      }
+      if (scale == 'F') {
+         return((working_num * 9.0 / 5.0) + 32.0);
+      }
+      else {
+         return((working_num - 32.0) * (5.0 / 9.0));
+      } 
    }
 
 
@@ -23,7 +30,8 @@ public class Convert{
       out = Convert.convert(in, scale);
       System.out.println("convert(\"" + in + "\",\'" + scale + "\')");
       System.out.println("...expect : " + expect);
-      System.out.println("...actual : " + out);
-      
+      System.out.println("...actual : " + out);     
+
+      System.out.println(Convert.convert("-500.0F", 'C'));
    }
 }
