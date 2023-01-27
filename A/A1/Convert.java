@@ -31,7 +31,5 @@ public class Convert{
       System.out.println("convert(\"" + in + "\",\'" + scale + "\')");
       System.out.println("...expect : " + expect);
       System.out.println("...actual : " + out);     
-
-      System.out.println(Convert.convert("-500.0F", 'C'));
    }
 }
