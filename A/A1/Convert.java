@@ -1,9 +1,7 @@
 public class Convert{
    public static double convert(String temperature, char scale){
       // converts a temperature (value/scale) to a new scale
-      System.out.println(temperature);
       double working_num = Double.parseDouble(temperature.substring(0, temperature.length() - 1));
-      System.out.println(working_num);
       if (temperature.charAt(temperature.length()-1) == scale) {
          return(working_num);
       }
