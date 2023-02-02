@@ -6,10 +6,22 @@ public class Convert{
          return(working_num);
       }
       if (scale == 'F') {
-         return((working_num * 9.0 / 5.0) + 32.0);
+         if (((working_num * 9.0 / 5.0) + 32.0) < -459.67) { 
+            return(-459.67);
+         } 
+         else {
+            return((working_num * 9.0 / 5.0) + 32.0);
+         }
+         
       }
       else {
-         return((working_num - 32.0) * (5.0 / 9.0));
+         if (((working_num - 32.0) * (5.0 / 9.0)) < -273.15) {
+            return(-273.15);
+         }
+         else {
+            return((working_num - 32.0) * (5.0 / 9.0));
+         }
+         
       } 
    }
 

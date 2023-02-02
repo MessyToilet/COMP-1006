@@ -8,15 +8,16 @@ public class Peaks{
     public static int[] peaks(int[] data){
         // returns the locations of all peaks in the input data
         int[] locations = new int[data.length];
-        if (data[0] > data[1]) {
+        //if array length 1, then peak
+        if (data[0] > data[1]) {//if first is peak
             locations[0] = 0;
         }
         for (int i = 1; i < data.length; i++) {
-            if ((data[i - 1] < data[i]) && (data[i] < data[i+1])) {
+            if ((data[i - 1] < data[i]) && (data[i] < data[i+1])) {//if any num is greater than the num before and after
                 locations[i] = i;
             }
         }
-        if (data[data.length - 1] > data[data.length - 2]) {
+        if (data[data.length - 1] > data[data.length - 2]) {//if last is peak
             locations[data.length - 1] = data.length - 1;
         }
         return locations;
@@ -44,6 +45,7 @@ public class Peaks{
 
     public static void main(String[] args){
       // you can use this to help test your code
+      /*
         int[] test_one = new int[]{1, 2, 3, 2, 1, 3, 2, 1};
         int test_numpeaks = 2;                                          //num of peaks
         int[] test_peaks = new int[]{2, 5};                             //index of peaks
@@ -51,13 +53,13 @@ public class Peaks{
 
 
         System.out.println("Array     : " + java.util.Arrays.toString(test_one));
-        System.out.println("Mins      : " + test_numpeaks);
+        System.out.println("Peaks     : " + test_numpeaks);
         System.out.println("Maxs      : " + java.util.Arrays.toString(test_peaks));
         System.out.println("min max   : " + java.util.Arrays.deepToString(test_min_max));
 
         int[][] test_array = new int[3][];
         System.out.println(java.util.Arrays.toString(test_array[1]));
         System.out.println(test_array.length);
-
+        */
     }
 }
