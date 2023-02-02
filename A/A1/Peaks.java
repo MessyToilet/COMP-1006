@@ -7,14 +7,27 @@ public class Peaks{
 
     public static int[] peaks(int[] data){
         // returns the locations of all peaks in the input data
+        int[][] locations2D = new int[data.length][];
+
         int[] locations = new int[data.length];
         //if array length 1, then peak
         if (data[0] > data[1]) {//if first is peak
             locations[0] = 0;
+            locations2D[0] = new int[]{0};
         }
         for (int i = 1; i < data.length; i++) {
             if ((data[i - 1] < data[i]) && (data[i] < data[i+1])) {//if any num is greater than the num before and after
                 locations[i] = i;
+                locations2D[i] = new int[locations2D[i - 1].length + 1];
+                for (int k = 1; k < locations2D[i - 1].length; i++) {
+                    locations2D[i][k] = locations2D[i][k];
+                }
+                locations2D[i][locations2D[i].length - 1] = i;
+            }
+            else{
+                for (int k = 1; k < locations2D[i-1].length; i++) {
+                    locations2D[i][k] = locations2D[i - 1][k];
+                }
             }
         }
         if (data[data.length - 1] > data[data.length - 2]) {//if last is peak
@@ -45,21 +58,15 @@ public class Peaks{
 
     public static void main(String[] args){
       // you can use this to help test your code
-      /*
-        int[] test_one = new int[]{1, 2, 3, 2, 1, 3, 2, 1};
-        int test_numpeaks = 2;                                          //num of peaks
-        int[] test_peaks = new int[]{2, 5};                             //index of peaks
-        int[][] test_min_max = new int[][]{ {1, 0, 4, 7}, {3, 2, 5} };  //min value, index, max value, index
-
+      
+        int[] test_one = new int[]{5,-1};
+        int test_numpeaks = 1;                                          //num of peaks
 
         System.out.println("Array     : " + java.util.Arrays.toString(test_one));
+        System.out.println("Peaks     : " + (numPeaks(test_one)));
         System.out.println("Peaks     : " + test_numpeaks);
-        System.out.println("Maxs      : " + java.util.Arrays.toString(test_peaks));
-        System.out.println("min max   : " + java.util.Arrays.deepToString(test_min_max));
 
-        int[][] test_array = new int[3][];
-        System.out.println(java.util.Arrays.toString(test_array[1]));
-        System.out.println(test_array.length);
-        */
+
+        
     }
 }
