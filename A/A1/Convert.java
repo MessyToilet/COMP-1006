@@ -12,7 +12,6 @@ public class Convert{
          else {
             return((working_num * 9.0 / 5.0) + 32.0);
          }
-         
       }
       else {
          if (((working_num - 32.0) * (5.0 / 9.0)) < -273.15) {
