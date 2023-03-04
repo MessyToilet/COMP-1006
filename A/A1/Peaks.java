@@ -115,7 +115,6 @@ public class Peaks{
             }
         }
 
-
         int[] max_pos = new int[max_count + 1];
         int[] min_pos = new int[min_count + 1];
         max_pos[0] = max;
@@ -139,10 +138,8 @@ public class Peaks{
 
     public static void main(String[] args){
       // you can use this to help test your code
-      
         int[] test_one = new int[]{2, 16, 2, 16, 2, 16, 2};
-                                            //num of peaks
-
+        //num of peaks
         System.out.println("Array     : " + java.util.Arrays.toString(test_one));
         System.out.println("Peaks     : " + (java.util.Arrays.deepToString(minmax(test_one))));
 
