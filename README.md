@@ -25,6 +25,6 @@
 
 <div align="center"style="font-size:30px;">
 
-![Doomer](/Assets/Doomer.jgp "Doomer.jpg")
+![Doomer](Assets/Doomer.jgp "Doomer.jpg")
 
 </div>
