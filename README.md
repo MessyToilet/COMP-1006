@@ -1,3 +1,4 @@
+<html>
 <h1 align="center"> COMP 1006 With Jason Hineck </h1>
 <p align="center"> Winter 2023 term at Carleton University </p>
     
@@ -7,3 +8,15 @@
 
 </div>
 
+<audio control>
+
+<source src="filename" type="audio/mpeg">
+
+</audio>
+</html>
+
+---
+
+- [ ]
+- [x] asda
+- [x] asda
