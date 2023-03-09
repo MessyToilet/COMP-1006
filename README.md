@@ -4,7 +4,7 @@
     
 <div align="center"style="font-size:30px;">
 
-![Suffer.gif](https://github.com/MessyToilet/COMP-1006/blob/main/Assest/suffer.gif)
+![Suffer.gif](https://github.com/MessyToilet/COMP-1006/blob/main/Assets/suffer.gif)
 
 </div>
 
@@ -25,6 +25,6 @@
 
 <div align="center"style="font-size:30px;">
 
-![Doomer](/Asset/Doomer.jgp "Doomer.jpg")
+![Doomer](/Assets/Doomer.jgp "Doomer.jpg")
 
 </div>
