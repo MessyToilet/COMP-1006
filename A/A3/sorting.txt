@@ -1,0 +1,16 @@
+(A)
+    initial :   [QD, 9H, JD, AD]   
+    it 1    :   [9H, QD, AD, JD]
+    it 2    :   [9H, AD, QD, JD]
+    it 3    :   [AD, 9H, QD, JD]
+
+(B)
+    initial :   [QD, 9H, JD, AD]
+    it 1    :   [9H, QD, JD, AD]
+    it 2    :   [QD, JD, 9H, AD]
+    it 3    :   [QD, JD, 9H, AD]
+(C)
+    initial :   [QD, 9H, JD, AD]
+    it 1    :   [QD, JD, AD, JD]
+    it 2    :   [JD, AD, QD, JD]
+    it 3    :   [AD, JD, QD, JD]
