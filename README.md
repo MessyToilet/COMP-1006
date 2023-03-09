@@ -8,18 +8,13 @@
 
 </div>
 
-<audio control>
-
-<source src="filename" type="audio/mpeg">
-
-</audio>
 </html>
 
 ---
 
 ## In this course...
 
-- [x] Doggy doo-doo class :grin:
+- [x] History of having doggy doo-doo class :grin:
 - [x] Gotta self teach :stuck_out_tongue_winking_eye:
 - [x] Everything gets automaticaly graded :vomiting_face:
 - [x] No email replys :skull:
