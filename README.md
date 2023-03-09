@@ -19,5 +19,5 @@
 
 ## In this course...
 
-- [x] asda
-- [x] asda
+- [x] No email replys :grin:
+- [x] Gotta self teach :stuck_out_tongue_winking_eye:
