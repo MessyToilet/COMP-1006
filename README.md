@@ -1,4 +1,4 @@
-<h1 align="center"> COMP 1005 With Jason Hineck </h1>
+<h1 align="center"> COMP 1006 With Jason Hineck </h1>
 <p align="center"> Winter 2023 term at Carleton University </p>
     
 <div align="center"style="font-size:30px;">
