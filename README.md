@@ -17,6 +17,7 @@
 
 ---
 
-- [ ]
+## In this course...
+
 - [x] asda
 - [x] asda
