@@ -23,8 +23,11 @@
 - [x] No email replys :skull:
 
 
+
+<html>
 <div align="center"style="font-size:30px;">
 
-![Doomer](Assets/Doomer.jgp "Doomer.jpg")
+![Doomer](/Assets/Doomer.jpg "Doomer.jpg")
 
 </div>
+</html>
