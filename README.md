@@ -19,5 +19,8 @@
 
 ## In this course...
 
-- [x] No email replys :grin:
+- [x] Doggy doo-doo class :grin:
 - [x] Gotta self teach :stuck_out_tongue_winking_eye:
+- [x] Everything gets automaticaly graded :vomiting_face:
+- [x] No email replys :skull:
+
