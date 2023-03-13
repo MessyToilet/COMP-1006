@@ -61,3 +61,4 @@
 | --- | --- |
 |Autograder fucked you? |  Cry about it | 
 |Out of scope code provided to you?  | Find a religion |
+|Want to contact the teacher?| To bad lmao |
