@@ -32,3 +32,14 @@
 
 </div>
 </html>
+
+---
+# STUDENT REVIEWS
+
+    "I dont' show up, I just learn online. Online learning > this guy." - Student 1
+
+<p align="center"> :star: :star: :star: :star: </p>
+
+    "This guy kinda smells, pro-tip! don't sit at the front..." - Student 2
+
+ <p align="center"> :star: :star: </p>   

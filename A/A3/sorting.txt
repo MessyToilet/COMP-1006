@@ -6,11 +6,14 @@
 
 (B)
     initial :   [QD, 9H, JD, AD]
-    it 1    :   [9H, QD, JD, AD]
+    it 1    :   [9H, QD, JD, AD] 
     it 2    :   [QD, JD, 9H, AD]
-    it 3    :   [QD, JD, 9H, AD]
+    it 3    :   [QD, JD, 9H, AD] 
 (C)
     initial :   [QD, 9H, JD, AD]
-    it 1    :   [QD, JD, AD, JD]
-    it 2    :   [JD, AD, QD, JD]
-    it 3    :   [AD, JD, QD, JD]
+    it 1    :   [QD, JD, AD, 9H]
+    it 2    :   [JD, AD, QD. 9h]
+    it 3    :   [AD, JD, QD, 9H]
+(D)
+	They are different becuase depending on which card class is calling the compareTo method will change the way the cards are weighed.
+	One card class only accounts for the card value while another will account the suit and value, also the way we compare the cards (the version) will also change the outcome since it changes from comparing the first to second, to second to first.
