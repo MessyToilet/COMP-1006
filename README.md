@@ -35,7 +35,7 @@
 </html>
 
 ---
-# STUDENT REVIEWS
+<h1 align="center"> STUDENT REVIEWS </h1>
 
     "I dont' show up, I just learn online. Online learning > this guy." - Student 1
 
@@ -52,3 +52,12 @@
     "Can't read assignment, pain" - Student 4
 
  <p align="center"> :star: :star: </p>  
+
+---
+
+<h1 align="center"> PROTOCOLS FOR SUCCESS </h1>
+
+| Event | Action |
+| --- | --- |
+|Autograder fucked you? |  Cry about it | 
+|Out of scope code provided to you?  | Find a religion |
