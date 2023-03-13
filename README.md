@@ -21,6 +21,7 @@
 - [x] Gotta self teach :stuck_out_tongue_winking_eye:
 - [x] Everything gets automaticaly graded :vomiting_face:
 - [x] No office hours :neutral_face:
+- [x] Passive agressive attitude :grimacing:
 - [x] No email replys :skull:
 
 
@@ -47,3 +48,7 @@
     "Very Good Class, I Learned Alot (definatly not lying), (HORIBLE TEACHER)" - Student 3
 
  <p align="center"> :star: </p>   
+
+    "Can't read assignment, pain" - Student 4
+
+ <p align="center"> :star: :star: </p>  
