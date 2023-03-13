@@ -43,3 +43,7 @@
     "This guy kinda smells, pro-tip! don't sit at the front..." - Student 2
 
  <p align="center"> :star: :star: </p>   
+
+    "Very Good Class, I Learned Alot (definatly not lying), (HORIBLE TEACHER)" - Student 3
+
+ <p align="center"> :star: </p>   
